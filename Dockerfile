@@ -1,4 +1,4 @@
-FROM    daocloud.io/library/node
+FROM   node:4.4.4-wheezy
 MAINTAINER KradChen <reinhard1203@163.com>
 RUN node -v
 ADD ./ src
